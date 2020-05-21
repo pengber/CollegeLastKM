@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/agreement/agreement",
+    "pages/order/order",
+    "pages/edit/edit",
+    "pages/convert/convert",
+    "pages/collect_order/collect_order",
+    "pages/want_order/want_order",
+    "pages/sharing_ticket/sharing_ticket",
+    "pages/place_order/place_order",
+    "pages/button/button",
+    "pages/approve/approve",
+    "pages/service/service",
+    "pages/place_order_detail/place_order_detail",
+    "pages/password/password",
+    "pages/control/control"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "最后一公里",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#32cd32",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selectHome.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/selectMessage.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
